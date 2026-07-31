@@ -24,13 +24,14 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
           extended: true
 
       - name: Build Hugo
-        run: hugo --minify
+        # Thêm flag -b (baseURL) kèm subpath chính xác của repo
+        run: hugo --minify -b "https://vutungvn.github.io/My-Internship-Report/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
