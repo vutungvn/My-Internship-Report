@@ -1,45 +1,40 @@
 ---
-title: "Thiết lập Tài Khoản AWS"
+title: "Báo Cáo Thực Tập"
+date: 2026-07-31
 weight: 1
 chapter: false
 ---
 
-# Tạo tài khoản AWS đầu tiên
+# Báo Cáo Thực Tập
 
-#### Tổng quan
+### Thông tin sinh viên:
 
-Trong bài lab đầu tiên này, bạn sẽ tạo mới **tài khoản AWS** đầu tiên của mình, tạo **MFA** (Multi-factor Authentication) để gia tăng bảo mật tài khoản của bạn. Bước tiếp theo bạn sẽ tạo **Admin Group**, **Admin User** để quản lý quyền truy cập vào các tài nguyên trong tài khoản của mình thay vì sử dụng user root.\
-Cuối cùng, nếu quá trình xác thực tài khoản của bạn có vấn đề, bạn sẽ được hướng dẫn hỗ trợ xác thực tài khoản với **AWS Support**.
+&emsp; **Họ và tên:** Vũ Văn Thanh Tùng
 
-#### Tài khoản AWS (AWS Account)
+&emsp; **Số điện thoại:** 0376734165
 
-**Tài khoản AWS** là phương tiện để bạn có thể truy cập và sử dụng những tài nguyên và dịch vụ của AWS. Theo mặc định, mỗi tài khoản AWS sẽ có một _root user_. _Root user_ có toàn quyền với tài khoản AWS của bạn, và quyền hạn của root user không thể bị giới hạn. Nếu bạn mới sử dụng tài khoản AWS lần đầu tiên, bạn sẽ truy cập vào tài khoản dưới danh nghĩa của _root user_.
+&emsp; **Email:** tungvuvanthanh@gmail.com
 
-![Create Account](/images/1/0001.png?featherlight=false&width=90pc)
+&emsp; **Trường:** Đại học Xây dựng Hà Nội
 
-{{% notice note %}}
-Chính vì quyền hạn của **root user** không thể bị giới hạn, AWS khuyên bạn không nên sử dụng trực tiếp _root user_ cho bất kỳ công tác nào. Thay vào đó, bạn nên tạo ra một _IAM User_ và trao quyền quản trị cho _IAM User_ đó để dễ dàng quản lý và giảm thiểu rủi ro.
-{{% /notice %}}
+&emsp; **Chuyên ngành:** Công Nghệ Thông Tin
 
-#### MFA (Multi-factor Authentication)
+&emsp; **Lớp:** 67PM2
 
-**MFA** là một tính năng được sử dụng để gia tăng bảo mật của tài khoản AWS. Nếu MFA được kích hoạt, bạn sẽ phải nhập mã OTP (One-time Password) mỗi lần bạn đăng nhập vào tài khoản AWS.
+&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
 
-#### IAM Group
+&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 
-**IAM Group** là một công cụ quản lý người dùng (_IAM User_) của AWS. Một IAM Group có thể chứa nhiều IAM User. Các IAM User ở trong một IAM Group đều hưởng chung quyền hạn mà IAM Group đó được gán cho.
+&emsp; **Thời gian thực tập:** Từ ngày 18/07/2026 đến ngày 25/09/2026
 
-#### IAM User
+![Ảnh cá nhân](/images/avatar.jpg)
 
-**IAM User** là một đơn vị người dùng của AWS. Khi bạn đăng nhập vào AWS, bạn sẽ phải đăng nhập dưới danh nghĩa của một IAM User. Nếu bạn mới đăng nhập vào AWS lần đầu tiên, bạn sẽ đăng nhập dưới danh nghĩa của _root user_ (tạm dịch là người dùng gốc). Ngoài _root user_ ra, bạn có thể tạo ra nhiều IAM User khác để cho phép người khác truy cập **dài hạn** vào tài nguyên AWS trong tài khoản AWS của bạn.
+### Nội dung báo cáo
 
-#### AWS Support
-
-**AWS Support** là một đơn vị cung cấp các dịch vụ hỗ trợ khách hàng của AWS.
-
-#### Nội dung chính
-
-1. [Tạo tài khoản AWS](1-create-new-aws-account/)
-2. [Thiết lập MFA cho tài khoản AWS (Root)](<2-mfa-setup-for-aws-user-(root)/>)
-3. [Tài khoản và Nhóm Admin](3-create-admin-user-and-group/)
-4. [Hỗ trợ Xác thực Tài khoản](4-verify-new-account/)
+1.  [Worklog](1-Worklog/)
+2.  [Proposal](2-Proposal/)
+3.  [Các bài blogs đã đăng](3-BlogsPosted/)
+4.  [Các events đã tham gia](4-EventParticipated/)
+5.  [Workshop](5-Workshop/)
+6.  [Tự đánh giá](6-Self-evaluation/)
+7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)

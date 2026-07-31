@@ -31,7 +31,7 @@ jobs:
 
       - name: Build Hugo
         # Thêm flag -b (baseURL) kèm subpath chính xác của repo
-        run: hugo --minify -b "https://vutungvn.github.io/My-Internship-Report/"
+        run: hugo --minify -b "https://vutungvn.github.io/Workshop_Internship/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

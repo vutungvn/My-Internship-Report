@@ -2,12 +2,16 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 		<sitemap>
-			<loc>http://localhost:1313/My-Internship-Report/vi/sitemap.xml</loc>
+			<loc>http://localhost:1313/Workshop_Internship/en/sitemap.xml</loc>
+			
+				<lastmod>2026-07-31T00:00:00+00:00</lastmod>
 			
 		</sitemap>
 	
 		<sitemap>
-			<loc>http://localhost:1313/My-Internship-Report/en/sitemap.xml</loc>
+			<loc>http://localhost:1313/Workshop_Internship/vi/sitemap.xml</loc>
+			
+				<lastmod>2024-01-01T00:00:00+00:00</lastmod>
 			
 		</sitemap>
 	

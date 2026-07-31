@@ -2,52 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/My-Internship-Report/vi/1-create-new-aws-account/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/My-Internship-Report/vi/1-create-new-aws-account/"
-                />
+    <loc>http://localhost:1313/Workshop_Internship/vi/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/My-Internship-Report/1-create-new-aws-account/"
+                href="http://localhost:1313/Workshop_Internship/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Workshop_Internship/vi/"
                 />
   </url><url>
-    <loc>http://localhost:1313/My-Internship-Report/vi/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/My-Internship-Report/vi/"
-                />
+    <loc>http://localhost:1313/Workshop_Internship/vi/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/My-Internship-Report/"
+                href="http://localhost:1313/Workshop_Internship/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Workshop_Internship/vi/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/My-Internship-Report/vi/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/My-Internship-Report/vi/categories/"
-                />
+    <loc>http://localhost:1313/Workshop_Internship/vi/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/My-Internship-Report/categories/"
+                href="http://localhost:1313/Workshop_Internship/tags/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/My-Internship-Report/vi/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/My-Internship-Report/vi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/My-Internship-Report/tags/"
+                href="http://localhost:1313/Workshop_Internship/vi/tags/"
                 />
   </url>
 </urlset>
