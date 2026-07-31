@@ -1,12 +1,11 @@
 ---
-title : "Create or update your AWS account alias"
-date : "`r Sys.Date()`"
-weight : 3
-chapter : false
-pre : " <b> 1.3 </b> "
+title: "Create or update your AWS account alias"
+weight: 3
+chapter: false
+pre: " <b> 1.3 </b> "
 ---
 
-####  Managing AWS Account Aliases for IAM User Sign-In
+#### Managing AWS Account Aliases for IAM User Sign-In
 
 The AWS account root user and AWS Identity and Access Management (IAM) users in the account sign in using a web URL.
 
@@ -18,20 +17,20 @@ The sign-in page URL for your account's IAM users has the following format, by d
 https://Your_Account_ID.signin.aws.amazon.com/console/
 ```
 
-
 If you create an AWS account alias for your AWS account ID, the IAM user sign-in page URL looks like the following example:
 
 ```
 https://Your_Account_Alias.signin.aws.amazon.com/console/
 ```
 
-
 The original URL containing your AWS account ID remains active and can still be used after you create your AWS account alias.
 
 #### Tip
+
 To create a bookmark for your account sign-in page in your web browser, we recommend that you manually type the sign-in URL in the bookmark entry. Don't use your web browser's "bookmark this page" feature, as it can capture session-specific information that might interfere with future visits to the page.
 
 #### Considerations
+
 - Your AWS account can have only one alias. Creating a new alias will overwrite the previous one, and the URL containing the previous alias will stop working.
 - The account alias must be unique across all Amazon Web Services products.
 - The alias can only contain lowercase letters, digits, and hyphens.
@@ -39,6 +38,7 @@ To create a bookmark for your account sign-in page in your web browser, we recom
 #### Create or Edit an Account Alias
 
 #### Minimum Permissions
+
 To perform the following steps, you must have at least the following IAM permissions:
 
 - `iam:ListAccountAliases`
@@ -61,6 +61,7 @@ To perform the following steps, you must have at least the following IAM permiss
 #### Delete an Account Alias
 
 #### Minimum Permissions
+
 To perform the following steps, you must have at least the following IAM permissions:
 
 - `iam:ListAccountAliases`

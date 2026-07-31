@@ -1,9 +1,8 @@
 ---
-title : "Close a standalone AWS account"
-date : "`r Sys.Date()`"
-weight : 4
-chapter : false
-pre : " <b> 1.4 </b> "
+title: "Close a standalone AWS account"
+weight: 4
+chapter: false
+pre: " <b> 1.4 </b> "
 ---
 
 #### Close a standalone AWS account
@@ -132,6 +131,7 @@ To reopen your AWS account, contact AWS Support. If you choose to reopen your ac
 Once the Post-Closure Period ends, AWS permanently closes your AWS account. Any undeleted content will be permanently deleted, and any active AWS services will be stopped. Service attributes necessary for billing and administration purposes may be retained.
 
 Please note that you cannot create a new AWS account using the same alias or email address that was registered to your closed AWS account.
+
 ### How to Close Your AWS Account
 
 #### Minimum Permissions

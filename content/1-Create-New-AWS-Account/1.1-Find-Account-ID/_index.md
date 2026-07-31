@@ -1,9 +1,8 @@
 ---
-title : "View AWS account identifiers"
-date : "`r Sys.Date()`"
-weight : 1
-chapter : false
-pre : " <b> 1.1 </b> "
+title: "View AWS account identifiers"
+weight: 1
+chapter: false
+pre: " <b> 1.1 </b> "
 ---
 
 #### View AWS account identifiers
@@ -37,7 +36,6 @@ To perform the following steps, you must have at least the following IAM permiss
 
 2. At the top of the page, under **Account details**, the account number appears next to **AWS account ID**.
 
-
 #### Find the canonical user ID for your AWS account
 
 You can find the canonical user ID for your AWS account using the AWS Management Console or the AWS CLI. The canonical user ID for an AWS account is specific to that account. You can retrieve the canonical user ID for your AWS account as the root user, a federated user, or an IAM user.
@@ -66,6 +64,7 @@ To perform the following steps, you must have at least the following IAM permiss
 To find the canonical ID for your account when signed in to the console as a federated user with an IAM role
 
 #### Minimum Permissions
+
 You must have permission to list and view an Amazon S3 bucket.
 
 1. Sign in to the AWS Management Console as a federated user with an IAM role.

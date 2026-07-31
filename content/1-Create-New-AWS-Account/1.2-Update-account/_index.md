@@ -1,9 +1,8 @@
 ---
-title : "Update the AWS account"
-date : "`r Sys.Date()`"
-weight : 2
-chapter : false
-pre : " <b> 1.2 </b> "
+title: "Update the AWS account"
+weight: 2
+chapter: false
+pre: " <b> 1.2 </b> "
 ---
 
 #### Update the AWS account name, email address, or password for the root user
@@ -13,7 +12,6 @@ pre : " <b> 1.2 </b> "
 To make changes to your AWS account's name, root user's password, or root user's email address, follow the steps below. Your email address and password serve as credentials for signing in as the AWS account root user.
 
 > **Note:** Changes made to an AWS account may take up to four hours to propagate across all services.
-
 
 #### Editing Account Name, Root User Password, or Email Address
 
@@ -31,7 +29,6 @@ To proceed with the following steps, you need to have at least the following IAM
    > **Note:** If the "Edit" option is not visible, it indicates that you are not logged in as the root user of your AWS account. Account settings cannot be modified while signed in as an IAM user or role.
 
 4. On the "Update Account Settings" page, choose "Edit" next to the field you wish to update.
-
    - For **Name**: On the "Update Your Account Name" page, enter the new account name in the "New account name" field, then click "Save changes."
 
      > **Note:** If you encounter issues modifying the AWS account name, check if there's a Service Control Policy (SCP) within AWS Organizations that restricts access to "aws-portal" or denies the "iam:UpdateAccountName" action.
