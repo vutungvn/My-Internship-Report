@@ -28,19 +28,6 @@
                 href="http://localhost:1313/Workshop_Internship/vi/4-event/4.1-event1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Workshop_Internship/1-worklog/</loc>
-    <lastmod>2026-07-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/Workshop_Internship/1-worklog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/Workshop_Internship/vi/1-worklog/"
-                />
-  </url><url>
     <loc>http://localhost:1313/Workshop_Internship/1-worklog/1.1-week1/</loc>
     <lastmod>2026-07-18T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -52,6 +39,19 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/Workshop_Internship/vi/1-worklog/1.1-week1/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Workshop_Internship/1-worklog/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Workshop_Internship/1-worklog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Workshop_Internship/vi/1-worklog/"
                 />
   </url><url>
     <loc>http://localhost:1313/Workshop_Internship/2-proposal/</loc>
